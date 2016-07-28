@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "UrbanDictionary Search",
-  "short_name": "Search",
-  "description": "Searches for the selected text in the UrbanDictionary",
+  "name": "Vocabulary.com Search",
+  "short_name": "Search Definitions",
+  "description": "Searches for the definition of the selected word on Vocabulary.com",
   "version": "0.0.1",
   "minimum_chrome_version": "38",
   "permissions": [

@@ -1,10 +1,10 @@
 searchUrbanDict = function(word){
   var query = word.selectionText;
-  chrome.tabs.create({url: "http://www.urbandictionary.com/define.php?term=" + query});
+  chrome.tabs.create({url: "https://www.vocabulary.com/dictionary/" + query});
 };
 
 chrome.contextMenus.create({
-  title: "Search in UrbanDictionary",
+  title: "Search on Vocabulary.com",
   contexts:["selection"],
   onclick: searchUrbanDict
 });
