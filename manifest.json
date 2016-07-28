@@ -3,8 +3,12 @@
   "name": "Vocabulary.com Search",
   "short_name": "Search Definitions",
   "description": "Searches for the definition of the selected word on Vocabulary.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimum_chrome_version": "38",
+  "browser_action": {
+   "default_icon": "assets/search.png",
+   "default_popup": "background.html"
+  },
   "permissions": [
     "contextMenus", 
     "tabs"],
