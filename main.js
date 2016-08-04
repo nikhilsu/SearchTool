@@ -13,9 +13,3 @@ document.addEventListener('DOMContentLoaded', function () {
 		openVocabularDotComTab(searchText);
 	});
 });
-
-chrome.contextMenus.create({
-	title: "Search on Vocabulary.com",
-	contexts:["selection"],
-	onclick: searchVocabDotComFromContextMenu
-});
